@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.topline__menu {
+    background-color: #696969;
+    width: 100%;
+    height: 60px;
+}
+
+.top__nav {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+}
+
+.topline__asidemenu {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    /* padding: 20px; */
+}
+
+  /**************************/
+ /**Выдвижное меню контент**/
+/**************************/
+
+.side__content {
+    width: 380px;
+    height: 100%;
+    margin-top: 65px;
+    padding: 5px;
+    text-align: center;
+}
+
+.side__caption {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    font-style: italic;
+}
+
+.side__title {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.side__items {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.side__menu {
+    margin-bottom: 400px;
+}
+
+.side__footer {
+    font-size: 14px;
+}
+
+.side__paragraph {
+    font-size: 14px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.side__paragraph:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.side__items:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+  /*****************/
+ /*Выдвижное меню*/
+/***************/
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #eee;
+    height: 100%;
+    top: 0;
+    left: -400px;
+    transition: left .2s;
+    z-index: 2;
+
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #666;
+    padding: 5px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 3;
+    width: 35px;
+
+}
+
+.btn-menu span {
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+}
+
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked~.btn-menu {
+    left: 355px;
+}
+
+.hidden-menu-ticker:checked~.hidden-menu {
+    left: 0;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.first {
+    top: 10px;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.second {
+    opacity: 0;
+}
+
+.hidden-menu-ticker:checked~.btn-menu span.third {
+    top: -10px;
+}
