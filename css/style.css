@@ -21,14 +21,17 @@ body {
 
 .topline__menu {
     background-color: #696969;
+    min-width: 750px;
     width: 100%;
-    height: 60px;
+    min-height: 60px;
 }
 
 .top__nav {
     background-color: #FFFFFF;
+    min-width: 750px;
     width: 100%;
-    height: 40px;
+    min-height: 50px;
+    height: 100%;
 }
 
 .topline__asidemenu {
@@ -40,8 +43,64 @@ body {
     /* padding: 20px; */
 }
 
+.topline__in {
+    min-width: 250px;
+    max-width: 600px;
+    min-height: 60px;
+    padding: 20px 0px 0px 120px;
+    margin-right: 0px;
+}
+
+.header__info {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: white;
+}
+
+.header {
+    display: inline-block;
+    width: 750px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 250px;
+}
+.header:last-child {
+    width: 350px;
+}
+.nav__menu {
+    list-style-type: none;
+    padding-left: 250px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.nav__item {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 5px;
+    width: 125px;
+    height: 25px;
+    font-size: 18px;
+}
   /**************************/
- /**Выдвижное меню контент**/
+ /****-Параметры ссылки-****/
+/**************************/  
+
+.profile__link {
+    font-size: 18px;
+    color:white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.profile__link:hover {
+    color:rgb(215, 206, 206);
+}
+.profile__link:active {
+    color: rgba(214, 199, 199, 0.601);
+}
+/**************************/
+/**Выдвижное меню контент**/
 /**************************/
 
 .side__content {
@@ -94,8 +153,8 @@ body {
     margin-bottom: 25px;
 }
 
-  /*****************/
- /*Выдвижное меню*/
+/*****************/
+/*Выдвижное меню*/
 /***************/
 .hidden-menu {
     display: block;

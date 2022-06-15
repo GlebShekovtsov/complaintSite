@@ -49,12 +49,40 @@
                 </div>
             </div>
 
-            <div class="topline__in">
-                
+            <div class="header">
+                <p class="header__info">
+                    Управление Президента по работе с обращениями граждан
+                </p>
             </div>
+            <div class="header">
+                <a class="profile__link" href="#">Кабинет</a>
+            </div>
+
+
         </div>
         <div class="top__nav">
-
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#">
+                        <span>
+                            itemitemitem
+                        </span>
+                    </a>
+                </li>
+                <li  class="nav__item">
+                    <a href="">
+                        <span>
+                            itemitemitem
+                        </span>
+                    </a>
+                </li>
+                <li  class="nav__item"><a href="">
+                        <span>
+                            itemitemitem
+                        </span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="main__content">
 
