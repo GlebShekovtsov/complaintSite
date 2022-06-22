@@ -63,33 +63,34 @@
         <div class="top__nav">
             <ul class="nav__menu">
                 <li class="nav__item">
-                    <a href="#">
+                    <a href="send.php">
                         <span>
-                            Главная
+                            Отправить письмо
                         </span>
                     </a>
                 </li>
-                <li  class="nav__item">
+                <li class="nav__item">
+                    <a href="news.php">
+                        <span>
+                            Новости
+                        </span>
+                    </a>
+                </li>
+                <li class="nav__item">
                     <a href="">
                         <span>
-                            itemitemitem
+                            Справочная
                         </span>
                     </a>
                 </li>
-                <li  class="nav__item"><a href="">
-                        <span>
-                            itemitemitem
-                        </span>
-                    </a>
-                </li>
+                
             </ul>
         </div>
         <div class="main__content">
 
             <div class="inner__content">
 
-
-
+                
 
             </div>
 
