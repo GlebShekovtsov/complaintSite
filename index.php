@@ -65,7 +65,7 @@
                 <li class="nav__item">
                     <a href="#">
                         <span>
-                            itemitemitem
+                            Главная
                         </span>
                     </a>
                 </li>
@@ -87,6 +87,7 @@
         <div class="main__content">
 
             <div class="inner__content">
+
 
 
 
